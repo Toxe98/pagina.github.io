@@ -8,6 +8,17 @@ body {
     height: 400px;
 }
 
+h1, h2 {
+    font-family: 'Oswald', sans-serif;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
 .link-button {
     text-decoration: none;
     color: black;
