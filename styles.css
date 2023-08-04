@@ -6,6 +6,10 @@ body {
     border: 5px solid green;
     border-radius: 10px;
     height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 
 .link-button {
@@ -16,4 +20,16 @@ body {
     padding: 5px;
     border-radius: 5px;
     box-shadow: 2px 3px #888888;
+    display: block;
+    text-align: center;
+    width: 8%;
+    margin-right: auto;
+    margin-left: auto;
+   
+    
+
+}
+
+h1, h2, p {
+    text-align: center;
 }
