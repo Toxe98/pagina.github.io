@@ -31,15 +31,17 @@ h1, h2, p {
 
 .link-button {
     text-decoration: none;
-    color: black;
-    border: 1px solid gray;
-    background-color: #f2f2f2;
+    color: white;
+    border: none;
+    background-color: rgb(110, 26, 110);
     padding: 5px;
     border-radius: 5px;
-    box-shadow: 2px 3px #888888;
-    display: block;
-    text-align: center;
-    width: 8%;
-    margin-right: auto;
-    margin-left: auto;
+    width: 100px;
+}
+
+.link-button:hover{
+    background-color: rgb(160, 52, 160);
+    box-shadow: 5px 5px 5px rgb(226, 110, 226);
+    transition: ease-in 0.2s;
+
 }
